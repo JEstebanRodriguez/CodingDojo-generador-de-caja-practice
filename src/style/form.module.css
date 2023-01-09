@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.group {
+    flex: 4
+}
+
+.input {
+    padding: 1rem;
+    width: 100%;
+}
+
+.input_color {
+    padding: 0.5rem;
+    width: 5rem;
+}
+
+.btn {
+    flex: 1;
+    background-color: #fff;
+    color: #000000;
+    border: 2px solid #cecece;
+    padding: .4rem 1rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
