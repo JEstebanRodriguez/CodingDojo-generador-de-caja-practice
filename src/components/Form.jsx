@@ -11,6 +11,8 @@ export const Form = ({ setNewColor }) => {
 			...item,
 			{ code: color, dimension: dimension ? dimension : null }
 		])
+		setColor('')
+		setDimension('')
 	}
 
 	return (
